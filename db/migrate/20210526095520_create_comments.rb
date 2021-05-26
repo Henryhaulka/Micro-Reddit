@@ -1,4 +1,5 @@
 class CreateComments < ActiveRecord::Migration[6.1]
+  # rubocop:enable Style/Documentation
   def change
     create_table :comments do |t|
       t.text :body

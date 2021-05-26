@@ -1,4 +1,4 @@
-class CreatePosts < ActiveRecord::Migration[6.1]
+class CreatePosts < ActiveRecord::Migration[6.1] # rubocop:todo Style/Documentation
   def change
     create_table :posts do |t|
       t.string :title
